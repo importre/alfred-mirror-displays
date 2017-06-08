@@ -1,0 +1,57 @@
+{
+  "name": "alfred-mirror-displays",
+  "version": "0.0.0",
+  "description": "Toggle mirroring of external displays",
+  "license": "MIT",
+  "repository": "importre/alfred-mirror-displays",
+  "author": {
+    "name": "",
+    "email": "jaeweheo@gmail.com",
+    "url": "importre.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "mirror.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "toggle",
+    "mirror",
+    "mirroring",
+    "display",
+    "displays",
+    "monitor",
+    "dual",
+    "external",
+    "multiple",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  },
+  "xo": {
+    "esnext": true,
+    "rules": {
+      "babel/new-cap": "off",
+      "no-undef": "off",
+      "no-unused-vars": "off"
+    }
+  }
+}
+
