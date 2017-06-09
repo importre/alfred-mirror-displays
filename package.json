@@ -1,6 +1,6 @@
 {
   "name": "alfred-mirror-displays",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Toggle mirroring of external displays easily",
   "license": "MIT",
   "repository": "importre/alfred-mirror-displays",
