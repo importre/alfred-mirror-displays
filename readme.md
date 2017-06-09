@@ -2,7 +2,9 @@
 
 [![Build Status](https://travis-ci.org/importre/alfred-mirror-displays.svg?branch=master)](https://travis-ci.org/importre/alfred-mirror-displays)
 
-> Toggle mirroring of external displays
+> Toggle mirroring of external displays easily
+
+![](https://user-images.githubusercontent.com/1744446/26973474-c794533c-4d51-11e7-85e0-4d92510c7c14.png)
 
 
 ## Install
